@@ -1,0 +1,75 @@
+{
+  "pregunta": "¿Es una persona real?",
+  "si": {
+    "pregunta": "¿Es un cantante?",
+    "si": {
+      "pregunta": "¿Tu personaje es rubio?",
+      "si": {
+        "respuesta": "justin bieber"
+      },
+      "no": {
+        "respuesta": "tyler joseph"
+      }
+    },
+    "no": {
+      "pregunta": "¿Tu personaje es rubio?",
+      "si": {
+        "pregunta": "¿Es un actor?",
+        "si": {
+          "respuesta": "Brad pitt"
+        },
+        "no": {
+          "respuesta": "justin bieber"
+        }
+      },
+      "no": {
+        "pregunta": "¿Es un futbolista?",
+        "si": {
+          "respuesta": "Lionel messi"
+        },
+        "no": {
+          "pregunta": "¿Es un actor?",
+          "si": {
+            "respuesta": "Tom cruise"
+          },
+          "no": {
+            "respuesta": "Albert Einstein"
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "pregunta": "¿Es de alguna pelicula de disney?",
+    "si": {
+      "pregunta": "Es una mujer?¿",
+      "si": {
+        "respuesta": "Rapunzel"
+      },
+      "no": {
+        "respuesta": "tinker bell"
+      }
+    },
+    "no": {
+      "pregunta": "¿Es un superhero?",
+      "si": {
+        "pregunta": "¿Tu personaje usa un traje rojo?",
+        "si": {
+          "pregunta": "¿Tu personaje lanza telarañas?",
+          "si": {
+            "respuesta": "spider man"
+          },
+          "no": {
+            "respuesta": "Ironman"
+          }
+        },
+        "no": {
+          "respuesta": "spider man"
+        }
+      },
+      "no": {
+        "respuesta": "Harry Potter"
+      }
+    }
+  }
+}
